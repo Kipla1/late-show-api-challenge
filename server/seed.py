@@ -1,4 +1,9 @@
-from app import app, db, User, Guest, Episode, Appearance
+from app import app
+from config import db
+from server.models.user import User
+from server.models.guest import Guest
+from server.models.episode import Episode
+from server.models.appearance import Appearance
 from datetime import date
 
 def seed_data():
